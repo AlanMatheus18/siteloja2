@@ -26,9 +26,9 @@ const LinkButton = ({ href, icon, text }) => (
 
 function App() {
   const links = [
-    { href: "#", icon: <img src={loja} alt="Ícone do site" className="w-6 h-6 mx-auto rounded-sm" />, text: "Nossa Loja" },
-    { href: "#", icon: <InstagramIcon />, text: "Instagram" },
-    { href: "#", icon: <WhatsAppIcon />, text: "Contato WhatsApp" }
+    { href: "https://br.shp.ee/METiydR", icon: <img src={loja} alt="Ícone do site" className="w-6 h-6 mx-auto rounded-sm" />, text: "Nossa Loja" },
+    { href: "https://www.instagram.com/rc_importados02?igsh=MXV0ZTB4am9sMmF2aw==", icon: <InstagramIcon />, text: "Instagram" },
+    { href: "https://wa.me/message/WUDCINQS5UBXN1", icon: <WhatsAppIcon />, text: "Contato WhatsApp" }
   ];
 
   return (
